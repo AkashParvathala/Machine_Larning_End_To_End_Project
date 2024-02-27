@@ -1,5 +1,7 @@
 pandas 
 numpy
 seaborn
+xgboost
+AdaBoost
 
 -e .

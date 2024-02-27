@@ -21,6 +21,6 @@ version= '0.0.1',
 author= "Akash Parvathala",
 author_email="akashparvathala001@gmail.com",
 packages=find_packages(),
-install_requires = get_requirements('requirements.txt')
+install_requires = get_requirements('requirements.txt') #Creating A custom Function
 
 )

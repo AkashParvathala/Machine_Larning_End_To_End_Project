@@ -1,6 +1,6 @@
 import sys
-from src import Logger
-from Logger import logging
+from src.Logger import logging
+
 def Error_message_detail(error,error_detail:sys):
     _,_,exc_tb = error_detail.exc_info()
     file_name = exc_tb.tb_frame.f_code.co_filename
@@ -21,5 +21,5 @@ if __name__ == "__main__":
     try:
         a = 1/0
     except Exception as e:
-        logging.info("Logging has Started")
+        logging.info("Zero Division Error")
         raise CustomException(e,sys)
